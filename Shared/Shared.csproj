@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <None Remove="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOs\" />
   </ItemGroup>
 </Project>
